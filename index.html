@@ -1,11 +1,139 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Poshak Ethnic Wear</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Retail Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .banner {
+            background: url('shop-banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .product {
+            flex: 1;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            color: #888;
+        }
+        .about, .contact {
+            background: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 <body>
-    <center><img src="images/PoshakLogo.png" /></center>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. </p>
+
+    <header>
+        <h1>Welcome to My Retail Shop</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="banner">
+        <h1>Find Your Perfect Product</h1>
+    </section>
+
+    <div class="container">
+        <section class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$19.99</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$29.99</p>
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$39.99</p>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About Our Shop</h2>
+            <p>Welcome to My Retail Shop, where we offer a wide range of products tailored to meet your needs. We are dedicated to providing quality products at affordable prices.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us at <a href="mailto:info@myretailshop.com">info@myretailshop.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Retail Shop. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
+
